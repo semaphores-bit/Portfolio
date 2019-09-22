@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    background-image: url("../images/rockywall.png");
+    font-size: 15;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#name {
+   background: #4aaaa5;
+    color: azure;
+    margin: auto;
+    left: 300px;
+    top: 0;
+    bottom: 0%;
+    position: absolute;
+}
+
+#header {
+    background-color: #ffffff;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 1px;
+    position: relative;
+    border-color: #cccccc;
+    margin-left: 2px;
+    width: 100%;
+    height: 80px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+.menu{
+    right: 350px;
+    margin: auto;
+    position: absolute;
+    top: 25px;
+}
+
+/*h1 {
+    padding: 10px;
+    margin: 0;
+    width: 250px;
+    background: #4aaaa5;
+    max-width: 960px;
+}*/
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper {
+    padding: 20px;
+    margin: 0 auto;
+    background: #ffffff;
+    /*border-color: #dddddd;*/
+    max-width: 960px;
+    margin-top: 40px;;
+    margin-bottom: 100px;  
+}
+
+#image{   
+    margin-right: 10px; 
+    margin-bottom: 5px;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/*.box-set {
+    position: relative;
+    height: 600px;
+}*/
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    height: 25px;
+}
+
+.row {
+    position: relative;
+    height: 600px; 
+    margin: auto;  
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin: auto;
+}
+
+
+    
+
+
+.gallery {
+    width: 150px;
+    height: 150px;
+}
+
+.text-block1 {
+    margin-top: -40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    padding: 1px;
+    color: #ffffff;
+    margin-right: 100px;
+    margin-bottom: 1px;
+}
+
+.text-block1 h4 {
+    margin-right: 5px;
+    padding: 10px;
+    margin-bottom: -5px;
+    margin-top: -5px;;
+    width: 142px;
+    text-align: center;   
+    line-height: 10px;
+}
+
+.text-block2 {
+    margin-right: 150px;
+    float: right;  
+}
+
+.text-block2 h4{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    width: 16%;
+    margin-top: -30px;
+    text-align: center;   
+    line-height: 5px;
+}
+
+.text-block3 {
+    padding: 1px;   
+    margin-right: 50px;
+    margin-bottom: 1px;
+    position: absolute;
+}
+
+.text-block3 h4 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px;
+    width: 150px;
+    margin-top: -50px;;
+    text-align: center;   
+    line-height: 10px;    
+}
+
+.text-block4 {
+    margin-right: 150px;
+    float: right;
+   
+}
+.text-block4 h4{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    width: 16%;
+    margin-top: -55px;;
+    text-align: center;   
+    line-height: 8px;
+    font-size: 12px;
+}
+
+.text-block5 {
+    margin-top: 130px;  
+    padding: 1px;
+    color: #ffffff;
+    margin-right: 15px;
+   
+}
+
+.text-block5 h4 {
+    padding: 15px;
+    margin-bottom: -50px;
+    margin-top: -190px;
+    width: 148px;
+    text-align: center;
+    background-color: #4aaaa5;
+    position: absolute;
+    font-size: 13px;
+}
+
+
+#button {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+}
+
+#footer {
+    /*padding: 0.5px;*/
+    display: flex;
+    text-align: center;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border-top-style: solid;
+    border-width: 8px;
+    border-color:#4aaaa5;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+
+
+/*#fname{
+   width:500px;
+}/*/
+    </footer>
+    
+</body>
+</html>
